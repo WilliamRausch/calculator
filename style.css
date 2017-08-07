@@ -1,0 +1,38 @@
+.calculator{
+	background-color: rgb(0,193,0);
+	color: lightgreen;
+	width: 300px;
+	height: 450px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	flex-direction: column;
+	background-color: black;
+}
+h1{
+	color: gold;
+}
+.button{
+	height: 60px;
+	width: 60px;
+	padding: 5px;
+	margin: 5px;
+	font-size:20px;
+
+}
+#thplaceholder{
+	height: 60px;
+	width: 180px;
+	margin-left: 30px;
+}
+#th-{
+	background-color: red;
+}
